@@ -1,0 +1,38 @@
+[
+    {
+        "name": "id",
+        "dbType": "increments",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": true,
+        "inForm": false,
+        "inIndex": false,
+        "inView": false
+    },
+    {
+        "name": "winner_id",
+        "dbType": "integer:unsigned:foreign,users,id",
+        "htmlType": "text",
+        "relation": "mt1,User,winner_id,id"
+    },
+    {
+        "name": "quiz_id",
+        "dbType": "integer:unsigned:foreign,quizzes,id",
+        "htmlType": "text",
+        "relation": "mt1,Quiz,quiz_id,id"
+    },
+    {
+        "name": "prize",
+        "dbType": "integer",
+        "htmlType": "number",
+        "searchable": true
+    },
+    {
+        "name": "paid",
+        "dbType": "double",
+        "htmlType": "text",
+        "searchable": true
+    }
+]

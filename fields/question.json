@@ -1,0 +1,38 @@
+[
+    {
+        "name": "id",
+        "dbType": "increments",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": true,
+        "inForm": false,
+        "inIndex": false,
+        "inView": false
+    },
+    {
+        "name": "num",
+        "dbType": "integer",
+        "htmlType": "number",
+        "searchable": true
+    },
+    {
+        "name": "question",
+        "dbType": "text",
+        "htmlType": "text",
+        "searchable": true
+    },
+    {
+        "name": "answer",
+        "dbType": "text",
+        "htmlType": "text",
+        "searchable": true
+    },
+    {
+        "name": "search_terms",
+        "dbType": "text",
+        "htmlType": "text",
+        "searchable": true
+    }
+]

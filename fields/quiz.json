@@ -1,0 +1,38 @@
+[
+    {
+        "name": "id",
+        "dbType": "increments",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": true,
+        "inForm": false,
+        "inIndex": false,
+        "inView": false
+    },
+    {
+        "name": "name",
+        "dbType": "string",
+        "htmlType": "text",
+        "searchable": true
+    },
+    {
+        "name": "open_time",
+        "dbType": "dateTime",
+        "htmlType": "text",
+        "searchable": true
+    },
+    {
+        "name": "close_time",
+        "dbType": "dateTime",
+        "htmlType": "text",
+        "searchable": true
+    },
+    {
+        "name": "takings",
+        "dbType": "double",
+        "htmlType": "text",
+        "searchable": true
+    }
+]

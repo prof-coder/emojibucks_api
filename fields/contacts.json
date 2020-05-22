@@ -1,0 +1,54 @@
+[
+    {
+        "name": "id",
+        "dbType": "increments",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": true,
+        "inForm": false,
+        "inIndex": false,
+        "inView": false
+    },
+    {
+        "name": "user_id",
+        "dbType": "integer:unsigned:foreign,users,id",
+        "htmlType": "text",
+        "relation": "mt1,User,user_id,id"
+    },
+    {
+        "name": "email",
+        "dbType": "string",
+        "htmlType": "email",
+        "searchable": true
+    },
+    {
+        "name": "message",
+        "dbType": "string",
+        "htmlType": "message",
+        "searchable": true
+    },
+    {
+        "name": "created_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "updated_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    }
+]
